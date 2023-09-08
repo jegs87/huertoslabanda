@@ -1,0 +1,31 @@
+* {
+	font-family: 'Inter', sans-serif;
+	color: #FFF;
+}
+
+h1 {
+	font-size: 3.75rem !imrpotant;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+#one {
+	background-image: url(../img/bgtest2.png);
+}
+
+#two,
+#three {
+	height: 50rem;
+	padding: 8rem 0;
+}
+
+.to-aloe-30 {
+	--tw-gradient-to:  #4bfe85 var(--tw-gradient-to-position);	
+}
+
+.from-jalapeño-30 {
+	--tw-gradient-from: #5fd5b6 var(--tw-gradient-from-position);
+	--tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+}
